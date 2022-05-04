@@ -1,0 +1,59 @@
+.control {
+  display: flex;
+  gap: 30px;
+  flex-direction: row;
+}
+
+.input-task {
+  position: relative;
+  flex: 2;
+}
+
+.control-search-input {
+  /* width: 350px; */
+}
+
+.control-search-icon {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 0;
+  padding: 10px;
+}
+
+.control-sort {
+  flex: 1;
+  /* max-width: 100px; */
+}
+
+.input-task-close-icon {
+  position: absolute;
+  top: 50%;
+  right: 0px;
+
+  transform: translateY(-50%);
+  cursor: pointer;
+  padding: 10px;
+
+  color: rgb(195, 193, 193);
+}
+
+.input-task-close-icon:hover {
+  color: #222;
+}
+
+.dth-btn {
+  position: relative;
+  min-width: 100px
+}
+
+
+.button-loading-icon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  
+  width: 100px;
+  height: 100px;
+}

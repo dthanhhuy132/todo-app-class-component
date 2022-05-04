@@ -1,0 +1,12 @@
+.app {
+  margin: 70px auto;
+}
+
+.todo-wrapper {
+  margin: 70px auto;
+  padding: 20px;
+  width: 70%;
+
+  border: 1px solid #999;
+  border-radius: 10px;
+}
