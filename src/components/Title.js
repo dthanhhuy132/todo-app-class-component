@@ -8,7 +8,7 @@ class Title extends React.Component {
   render() {
     return (
       <div className="text-center">
-        <h1>TODO APP - REACTJS - CLASS COMPONENT</h1>
+        <h1 style={{ color: "#fff" }}>TODO APP - REACTJS - CLASS COMPONENT</h1>
         <span>--- by Huy Doan ---</span>
       </div>
     );

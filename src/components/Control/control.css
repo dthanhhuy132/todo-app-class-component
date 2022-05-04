@@ -4,6 +4,11 @@
   flex-direction: row;
 }
 
+.form-control {
+  /* background-color: rgba(255, 255, 255, 0.701); */
+  border-radius: 3px !important;
+}
+
 .input-task {
   position: relative;
   flex: 2;
@@ -16,7 +21,10 @@
   top: -11px;
   left: 10px;
   padding: 2px 5px;
-  background-color: #fff;
+  background-color: rgba(255, 255, 255, 1);
+
+  border-radius: 3px !important;
+  overflow: hidden;
 
   font-size: 11px;
   color: rgb(1, 18, 247);

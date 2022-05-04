@@ -90,7 +90,7 @@ class Control extends Component {
           </span>
 
           <select
-            className="form-select"
+            className="form-select form-control"
             value={this.state.taskLevel}
             onChange={this.handleChangeLevel}
           >

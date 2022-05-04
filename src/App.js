@@ -5,6 +5,8 @@ import Title from "./components/Title";
 import Control from "./components/Control";
 import TodoList from "./components/TodoList";
 
+import Background from "./assets/img/bg.jpg";
+
 export default class App extends Component {
   constructor(props) {
     super(props);
@@ -14,6 +16,7 @@ export default class App extends Component {
     return (
       <div className="app">
         <Title />
+        <img src={Background} alt="" className="app-bg" />
 
         <div className="container">
           <div className="todo-wrapper">

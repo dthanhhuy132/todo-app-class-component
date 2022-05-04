@@ -11,4 +11,5 @@
   align-items: center;
 
   background-color: rgba(0, 0, 0, 0.599);
+  z-index: 1000;
 }

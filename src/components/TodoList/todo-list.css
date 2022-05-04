@@ -4,7 +4,7 @@
   border-radius: 5px;
   overflow: hidden;
 
-  box-shadow: 1px 1px 10px;
+  box-shadow: 1px 1px 10px rgb(22, 3, 3);
 }
 
 .todo-list-name {
@@ -21,11 +21,12 @@ table {
 }
 
 .todo-item:not(:last-child) {
-  border-bottom: 1px solid #555;
+  border-bottom: 1px solid rgb(179, 176, 176);
 }
 
 table td {
   padding: 10px 20px;
+  color: aliceblue;
 }
 
 .todo-id {
@@ -65,7 +66,7 @@ table td {
 
 .action-icon {
   padding: 5px;
-  color: #999;
+  color: #b9b5b5;
   cursor: pointer;
 }
 
@@ -74,7 +75,7 @@ table td {
 }
 
 .action-icon-complete:hover {
-  color: green;
+  color: rgb(14, 208, 14);
 }
 .action-icon-edit:hover {
   color: blue;
