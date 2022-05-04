@@ -9,8 +9,21 @@
   flex: 2;
 }
 
-.control-search-input {
-  /* width: 350px; */
+.task-label {
+  position: absolute;
+  z-index: 10;
+
+  top: -11px;
+  left: 10px;
+  padding: 2px 5px;
+  background-color: #fff;
+
+  font-size: 12px;
+  color: rgb(1, 18, 247);
+}
+
+.task-label-level {
+  left: 7px;
 }
 
 .control-search-icon {
@@ -44,16 +57,15 @@
 
 .dth-btn {
   position: relative;
-  min-width: 100px
+  min-width: 100px;
 }
-
 
 .button-loading-icon {
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%,-50%);
-  
+  transform: translate(-50%, -50%);
+
   width: 100px;
   height: 100px;
 }

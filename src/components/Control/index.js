@@ -63,7 +63,7 @@ class Control extends Component {
   render() {
     return (
       <div className="control">
-        <div className="input-task">
+        <div className="input-group input-task">
           <input
             type="text"
             className="form-control control-input-task"
@@ -71,7 +71,8 @@ class Control extends Component {
             value={this.state.taskName}
             onChange={this.handleInputTaskName}
           />
-          {/* <div className="invalid-feedback">Please provide a valid city.</div> */}
+
+          <span className="task-label task-name">Task name</span>
 
           {this.state.clearInput ? (
             <i
@@ -84,6 +85,10 @@ class Control extends Component {
         </div>
 
         <div className="input-group control-sort">
+          <span className="task-label task-label-level task-level">
+            Task level
+          </span>
+
           <select
             className="form-select"
             value={this.state.taskLevel}

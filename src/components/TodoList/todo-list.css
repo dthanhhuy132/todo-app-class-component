@@ -1,8 +1,10 @@
 .todo-list {
-  margin-top: 20px;
+  margin-top: 40px;
   border: 1px solid #888;
   border-radius: 5px;
   overflow: hidden;
+
+  box-shadow: 1px 1px 10px;
 }
 
 .todo-list-name {
